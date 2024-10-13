@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    lilas: #5f2c82
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5f2c82;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 15px;
+    height: 800px;
+    border-radius: 15px;
+}
+
+img{
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+span{
+    background-color: #5f2c82;
+    border-radius: 16px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #49a09d;
+}
+ ::placeholder{
+    color: white;
+}
